@@ -10,4 +10,5 @@ type LoginController struct {
 
 func (c *LoginController) Get() {
 	c.TplName = "login.tpl"
+	c.Data["BaseURL"] = beego.AppConfig.String("BaseURL")
 }

@@ -1,3 +1,23 @@
 appname = oauth2example
 httpport = 8080
 runmode = dev
+
+db = sqlite
+dbfile = oauth2example.db
+
+dbhost = localhost
+dbport = 5432
+dbname = oauth2example
+dbuser = oauth2example
+dbpass = oauth2example
+
+BaseURL = http://localhost:8080
+
+GitHubClientID = 
+GitHubClientSecret = 
+
+LinkedInClientID = 
+LinkedInClientSecret =
+
+TwitterClientID = 
+TwitterClientSecret = 

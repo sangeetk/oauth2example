@@ -34,23 +34,25 @@
 
 			<div class="field">
 				<p class="control">
-					<button class="button is-fullwidth is-outlined is-dark">
+					<a class="button is-fullwidth is-outlined is-dark" 
+						href="{{.BaseURL}}/github/login">
 						<span class="icon">
 							<i class="fab fa-github"></i>
 						</span>
 						<span>Login using GitHub</span>
-					</button>
+					</a>
 				</p>
 			</div>
 
 			<div class="field">
 				<p class="control">
-					<button class="button is-fullwidth is-outlined is-link">
+					<a class="button is-fullwidth is-outlined is-link"
+						href="{{.BaseURL}}/linkedin/login">
 						<span class="icon">
 							<i class="fab fa-linkedin"></i>
 						</span>
 						<span>Login using Linkedin</span>
-					</button>
+					</a>
 				</p>
 			</div>
 
